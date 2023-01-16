@@ -1,0 +1,214 @@
+/* Main colors */
+/* Background color & H1 header color  - #FFFFFF */
+/* Second background color             - #F5F4FA */
+/* Hero & Footer bg color              - #2F303A */
+/* Main headers color                  - #212121 */
+/* Hover & Company name color          - #2196F3 */
+/* Company name color                  - #000000 */
+/* Main text color                     - #757575 */
+/* Footer contacts color               - rgba(255, 255, 255, 0.6) */
+
+/* Portfolio */
+/* Portfolio border color for articles - #EEEEEE; */
+
+/* Common style */
+:root {
+    --primary-bg-color: #FFFFFF;
+    --secondary-br-color: #F5F4FA;
+    --footer-hero-color: #2F303A;
+    --primary-header-color: #212121;
+    --accent-color: #2196F3;
+    --primary-text-color: #757575;
+    --secondary-text-color: #FFFFFF;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --company-name-color: #000000;
+    --portfolio-border-color: #EEEEEE;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background: var(--primary-bg-color);
+}
+
+/* Header */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: var(--company-name-color);
+}
+
+.logo>span {
+    color: var(--accent-color);
+}
+
+.nav-bar,
+.contact-bar {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-bar,
+.nav-bar .link:visited {
+    color: var(--primary-header-color);
+}
+
+.nav-bar .link:hover,
+.nav-bar .link:focus,
+.contact-bar .link:hover,
+.contact-bar .link:focus,
+.nav-bar .link.current {
+    color: var(--accent-color);
+}
+
+/* Footer */
+.footer-wrap {
+    background-color: var(--footer-hero-color);
+    color: var(--footer-contacts-color);
+}
+
+.footer-wrap .link {
+    font-style: normal;
+}
+
+.footer-wrap .logo,
+.address-item {
+    color: var(--secondary-text-color);
+}
+
+.footer-wrap .link:hover,
+.footer-wrap .linl:focus {
+    color: var(--accent-color);
+}
+
+/* Main page (main) */
+/* Section 1 (Hero) */
+.hero {
+    letter-spacing: 0.06em;
+    background-color: var(--footer-hero-color);
+    color: var(--secondary-text-color);
+}
+
+.hero h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.order-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    background: var(--accent-color);
+    color: inherit;
+}
+
+/* Section 2 (Features) */
+
+.features h2 {
+    display: none;
+}
+
+.features h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-header-color);
+}
+
+/* Section 3 (Occupation) */
+.occupation h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-header-color);
+}
+
+/* Section 4 (Our team) */
+.team {
+    background-color: var(--secondary-br-color);
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-header-color);
+}
+
+.team li {
+    background-color: var(--primary-bg-color);
+}
+
+.team h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--primary-header-color);
+}
+
+.team p {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* Portfolio page (main) */
+/* Section 1 (Portfolio) */
+.portfolio h1 {
+    display: none;
+}
+
+.portfolio h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    color: var(--primary-header-color);
+}
+
+.portfolio p {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+.filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background: var(--secondary-br-color);
+    color: var(--primary-header-color);
+}
+
+.filter-button:hover {
+    background: var(--accent-color);
+    color: var(--secondary-text-color);
+}
