@@ -52,7 +52,11 @@ p {
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 94px 15px;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 94px 0;
 }
 
 .list {
@@ -183,6 +187,10 @@ footer>.container {
     text-align: center;
 }
 
+.section.hero {
+    padding: 0;
+}
+
 .hero>.container {
     min-height: 600px;
     padding: 200px 0;
@@ -214,7 +222,7 @@ footer>.container {
 }
 
 /* Section 2 (Features) */
-.features>.container {
+.section.features {
     padding-bottom: 0;
 }
 
